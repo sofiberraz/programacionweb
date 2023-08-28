@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="images/ml logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="https://www.mercadolibre.com.ar/">Ofertas</a></li>
+                <li><a href="https://www.mercadolibre.com.ar/">Destacados</a></li>
+                <li><a href="https://www.mercadolibre.com.ar/">Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h1>Trabaja con nosotros</h1>
+                <h2>Gracias por el interes en nuestra empresa</h2>
+                <p>Completa el siguiente formulario para postularte</p>
+            </div>
+            <div>
+                <form action="mailto:milavirasoro@gmail.com">
+                <fieldset>
+                    <legend>Informacion personal </legend>
+                    <div>
+                        <label for="fullname">Nombre y apellido</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Juan Perez" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="Mail" id="email" required>
+                    </div>
+                    <div>
+                        <label for="dni">DNI</label>
+                        <input type="text" id="dni" name="DNI">
+                    </div>
+                    <div>
+                        <label for="posicion">Puesto de interes </label>
+                        <select name="" id="posicion" name="puesto">
+                            <option value="" selected>Seleccione una opcion</option>
+                            <option value="mkt">Analista de mrkt</option>
+                            <option value="fin">Finanzas</option>
+                            <option value="rrhh">RRHH</option>
+                            <option value="rep">Repartidor</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="cv">Subi tu CV</label>
+                        <input type="file" name="cv" id="cv">
+                    </div>
+                    <div>
+                        <label for="age">Edad</label>
+                        <input type="number" name="age" id="age" min="18" max="80" step="0.5">
+                    </div>
+                    <div>
+                        <p>Idiomas</p>
+
+                        <input type="checkbox" id="lan-spanish" value="spanish" name="lan" >
+                        <label for="lan-spanish">Español</label>
+
+                        <input type="checkbox" id="lan-english" value="english" name="lan">
+                        <label for="lan-english">Ingles</label>
+
+                        <input type="checkbox" id="lan-french" value="french" name="lan">
+                        <label for="lan-french">Frances</label>
+
+                        <input type="checkbox" id="lan-german" value="german" name="lan">
+                        <label for="lan-german">Aleman</label>
+                    </div>
+
+                    <div>
+                        <label for="telephone">Telefono</label>
+                        <input type="tel" name="telephone" id="telephone" maxlength="12">
+                    </div>
+                    <div>
+                        <label for="linkedin">Linkedin</label>
+                        <input type="text" name="linkedin" id="linkedin">
+                    </div>
+
+                    <div>
+                        <label for="cover-letter">Carta de presentacion</label>
+                        <textarea name="cover-letter" id="cover-letter" cols="30" rows="10" maxlength="5000" placeholder="Contanos porque quere strabajar con nosotros"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferencias del trabajador</legend>
+                    <div>
+                        <p>Disponibilidad horaria</p>
+                        <input type="radio" name="horario" id="am">
+                        <label for="am">Mañana</label>
+                        <input type="radio" name="horario" id="pm">
+                        <label for="pm">Tarde</label>
+                    </div>
+                    <div>
+                        <p>Forma de trabajo</p>
+                        <input type="radio" name="forma" id="vir">
+                        <label for="vir">Virtual</label>
+                        <input type="radio" name="forma" id="pres">
+                        <label for="pres">Presencial</label>
+                    </div>
+                    <div>
+                        <label for="start-day">Comienzo</label>
+                        <input type="datetime-local" name="start-day" id="start-day">
+                    </div>
+
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <input type="sumbit" value="Subir">
+                </form>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://www.mercadolibre.com.ar/">Trabaja con nosotros</a></li>
+                <li><a href="https://www.linkedin.com/">Politica de privacidd </a></li>
+                <li><a href="https://www.linkedin.com/">Terminos y condiciones</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    
+</body>
+</html>
